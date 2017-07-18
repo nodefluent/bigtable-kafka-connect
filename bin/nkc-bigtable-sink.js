@@ -12,8 +12,8 @@ program
     .option('-g, --group [string]', 'Kafka ConsumerGroup Id')
     .option('-t, --topic [string]', 'Kafka Topic to read from')
     .option('-p, --project_id [string]', 'GCloud project id')
-    .option('-b, --table [string]', 'BigTable table name')
-    .option('-f, --columnFamily [string]', 'BigTable Column Family Name')
+    .option('-b, --tableName [string]', 'BigTable table name')
+    .option('-f, --columnFamilyName [string]', 'BigTable Column Family Name')
     .parse(process.argv);
 
 const config = loadConfig(program.config);

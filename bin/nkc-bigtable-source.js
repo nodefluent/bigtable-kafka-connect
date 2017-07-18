@@ -13,8 +13,8 @@ program
     .option('-t, --topic [string]', 'Kafka Topic to Produce to')
     .option('-a, --partitions [integer]', 'Amount of Kafka Topic Partitions')
     .option('-p, --project_id [string]', 'GCloud project id')
-    .option('-b, --table [string]', 'BigTable table name')
-    .option('-f, --columnFamily [string]', 'BigTable Column Family Name')
+    .option('-b, --tableName [string]', 'BigTable table name')
+    .option('-f, --columnFamilyName [string]', 'BigTable Column Family Name')
     .parse(process.argv);
 
 const config = loadConfig(program.config);
