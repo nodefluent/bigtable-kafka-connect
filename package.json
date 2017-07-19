@@ -1,6 +1,6 @@
 {
     "name": "bigtable-kafka-connect",
-    "version": "1.0.8",
+    "version": "1.0.9",
     "description": "kafka connect connector for Google BigTable",
     "main": "index.js",
     "scripts": {
