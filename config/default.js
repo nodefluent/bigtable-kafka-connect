@@ -31,7 +31,6 @@ const config = {
   connector: {
     projectId: 'bt-project-id',
     instanceName: 'bt-test-instance',
-    columnFamilyName: 'bt_test_column_family',
     tableName: 'bt_test_table',
   },
   http: {
