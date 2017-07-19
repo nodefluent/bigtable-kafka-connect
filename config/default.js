@@ -33,6 +33,7 @@ const config = {
     instanceName: 'bt-test-instance',
     tableName: 'bt_test_table',
     columnFamilyName: 'payload',
+    getRowsLimit: 100,
   },
   http: {
     port: 3149,
