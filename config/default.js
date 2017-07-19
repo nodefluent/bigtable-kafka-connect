@@ -32,6 +32,7 @@ const config = {
     projectId: 'bt-project-id',
     instanceName: 'bt-test-instance',
     tableName: 'bt_test_table',
+    columnFamilyName: 'payload',
   },
   http: {
     port: 3149,
