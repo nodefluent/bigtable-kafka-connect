@@ -6,15 +6,15 @@ const pjson = require('./../package.json');
 const loadConfig = require('./../config/loadConfig.js');
 
 program
-    .version(pjson.version)
-    .option('-c, --config [string]', 'Path to Config (optional)')
-    .option('-k, --kafka [string]', 'Zookeeper Connection String')
-    .option('-g, --group [string]', 'Kafka ConsumerGroup Id')
-    .option('-t, --topic [string]', 'Kafka Topic to read from')
-    .option('-p, --project_id [string]', 'GCloud project id')
-    .option('-b, --tableName [string]', 'BigTable table name')
-    .option('-f, --columnFamilyName [string]', 'BigTable Column Family Name')
-    .parse(process.argv);
+  .version(pjson.version)
+  .option('-c, --config [string]', 'Path to Config (optional)')
+  .option('-k, --kafka [string]', 'Zookeeper Connection String')
+  .option('-g, --group [string]', 'Kafka ConsumerGroup Id')
+  .option('-t, --topic [string]', 'Kafka Topic to read from')
+  .option('-p, --project_id [string]', 'GCloud project id')
+  .option('-b, --tableName [string]', 'BigTable table name')
+  .option('-f, --columnFamilyName [string]', 'BigTable Column Family Name')
+  .parse(process.argv);
 
 const config = loadConfig(program.config);
 

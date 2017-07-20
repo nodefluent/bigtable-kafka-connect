@@ -14,8 +14,8 @@ const ConverterFactory = require('./lib/utils/ConverterFactory.js');
 
 const runSourceConnector = (properties, converters = [], onError = null) => {
   const config = new BigTableSourceConfig(properties,
-        BigTableSourceConnector,
-        BigTableSourceTask, [JsonConverter].concat(converters));
+    BigTableSourceConnector,
+    BigTableSourceTask, [JsonConverter].concat(converters));
 
   if (onError) {
     config.on('error', onError);
@@ -26,8 +26,8 @@ const runSourceConnector = (properties, converters = [], onError = null) => {
 
 const runSinkConnector = (properties, converters = [], onError = null) => {
   const config = new BigTableSinkConfig(properties,
-        BigTableSinkConnector,
-        BigTableSinkTask, [JsonConverter].concat(converters));
+    BigTableSinkConnector,
+    BigTableSinkTask, [JsonConverter].concat(converters));
 
   if (onError) {
     config.on('error', onError);

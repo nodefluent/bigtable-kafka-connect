@@ -19,8 +19,8 @@ const config = {
       heartbeatInterval: 250,
       retryMinTimeout: 250,
       requireAcks: 0,
-      //ackTimeoutMs: 100,
-      //partitionerType: 3
+      // ackTimeoutMs: 100,
+      // partitionerType: 3
     },
   },
   topic: 'btkc_test_topic',

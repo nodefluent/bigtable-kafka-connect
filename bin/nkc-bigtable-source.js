@@ -6,16 +6,16 @@ const pjson = require('./../package.json');
 const loadConfig = require('./../config/loadConfig.js');
 
 program
-    .version(pjson.version)
-    .option('-c, --config [string]', 'Path to Config (alternatively)')
-    .option('-k, --kafka [string]', 'Zookeeper Connection String')
-    .option('-n, --name [string]', 'Kafka Client Name')
-    .option('-t, --topic [string]', 'Kafka Topic to Produce to')
-    .option('-a, --partitions [integer]', 'Amount of Kafka Topic Partitions')
-    .option('-p, --project_id [string]', 'GCloud project id')
-    .option('-b, --tableName [string]', 'BigTable table name')
-    .option('-f, --columnFamilyName [string]', 'BigTable Column Family Name')
-    .parse(process.argv);
+  .version(pjson.version)
+  .option('-c, --config [string]', 'Path to Config (alternatively)')
+  .option('-k, --kafka [string]', 'Zookeeper Connection String')
+  .option('-n, --name [string]', 'Kafka Client Name')
+  .option('-t, --topic [string]', 'Kafka Topic to Produce to')
+  .option('-a, --partitions [integer]', 'Amount of Kafka Topic Partitions')
+  .option('-p, --project_id [string]', 'GCloud project id')
+  .option('-b, --tableName [string]', 'BigTable table name')
+  .option('-f, --columnFamilyName [string]', 'BigTable Column Family Name')
+  .parse(process.argv);
 
 const config = loadConfig(program.config);
 

@@ -18,8 +18,8 @@ const config = {
       autoCommit: true,
       autoCommitIntervalMs: 1000,
       requireAcks: 1,
-      //ackTimeoutMs: 100,
-      //partitionerType: 3
+      // ackTimeoutMs: 100,
+      // partitionerType: 3
     },
   },
   topic: 'bq_table_topic',
