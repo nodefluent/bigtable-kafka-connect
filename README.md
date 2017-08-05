@@ -1,11 +1,6 @@
 # bigtable-kafka-connect
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/nodefluent/bigtable-kafka-connect.svg)](https://greenkeeper.io/)
 Kafka Connect connector for Google BigTable
-
-[![Build Status](https://travis-ci.org/nodefluent/bigtable-kafka-connect.svg?branch=master)](https://travis-ci.org/nodefluent/bigtable-kafka-connect)
-
-[![Coverage Status](https://coveralls.io/repos/github/nodefluent/bigtable-kafka-connect/badge.svg?branch=master)](https://coveralls.io/github/nodefluent/bigtable-kafka-connect?branch=master)
 
 ## Use API
 
