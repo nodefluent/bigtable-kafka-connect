@@ -123,9 +123,9 @@ const config = {
     connector: {
         batchSize: 500,
         maxPollCount: 500,
-        projectId: "bq-project-id",
-        dataset: "bq_dataset",
-        table: "bq_table",
+        projectId: "bt-project-id",
+        dataset: "bt_dataset",
+        table: "bt_table",
         columnFamily: "bt_family",
         idColumn: "id"
     },
