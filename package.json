@@ -33,7 +33,7 @@
     },
     "dependencies": {
         "@google-cloud/bigtable": "^0.11.1",
-        "async": "^2.6.0",
+        "async": "^3.2.2",
         "commander": "^2.13.0",
         "kafka-connect": "^3.2.0"
     },
